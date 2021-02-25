@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 2</title>
+</head>
+<body>
+    <h1>Brasil x Alemanha</h1>
+    <button onclick="brasil()">Gol do Brasil</button>
+    <button onclick="alemanha()">Gol da Alemanha</button>
+    <button onclick="recomecar()">Recomeçar partida</button>
+    <h2>Tempo real de jogo</h2>
+    <span id="span_acontecimentos"></span>
+</body>
+</html>
+
+<script>
+    function brasil() {
+        span_acontecimento.innerHTML = ("<span style="color: green;">GOL DO BRASIL!!! </span>")
+    }
+    function alemanha() {
+        span_acontecimento.innerHTML = ("<span style="background-color: red; color: yellow;">GOL DA ALEMANHA!!!</span>")
+    }
+    function recomecar() {
+        span_acontecimento.innerHTML = ""
+    }
+</script>
