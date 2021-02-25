@@ -12,18 +12,18 @@
     <button onclick="alemanha()">Gol da Alemanha</button>
     <button onclick="recomecar()">Recomeçar partida</button>
     <h2>Tempo real de jogo</h2>
-    <span id="span_acontecimentos"></span>
+     <div id="span_acontecimentos"></div>
 </body>
 </html>
 
 <script>
     function brasil() {
-        span_acontecimento.innerHTML = ("<span style="color: green;">GOL DO BRASIL!!! </span>")
+        span_acontecimentos.innerHTML = ("<span style="color: green;">GOL DO BRASIL!!! </span>")
     }
     function alemanha() {
-        span_acontecimento.innerHTML = ("<span style="background-color: red; color: yellow;">GOL DA ALEMANHA!!!</span>")
+        span_acontecimentos.innerHTML = ("<span style="background-color: red; color: yellow;">GOL DA ALEMANHA!!!</span>")
     }
     function recomecar() {
-        span_acontecimento.innerHTML = ""
+        span_acontecimentos.innerHTML = ""
     }
 </script>
